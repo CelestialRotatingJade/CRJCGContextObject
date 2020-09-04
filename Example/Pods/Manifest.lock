@@ -1,0 +1,16 @@
+PODS:
+  - CRJCGContextObject (0.1.0)
+
+DEPENDENCIES:
+  - CRJCGContextObject (from `../`)
+
+EXTERNAL SOURCES:
+  CRJCGContextObject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CRJCGContextObject: f80d1af1eaa65d05c46550afac215f7271e592c3
+
+PODFILE CHECKSUM: 2b9ef0805c2158fd128c8523061129d5deb63cd1
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B36F1A7DD6421797AC75E079282F7FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0FDDBB3A2839D8ABB194E8D2762EE4FC /* CRJCGContextObject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 951B7E11F2C1341669B5BACB230FC59E /* CRJCGContextObject-dummy.m */; };
+		11EE2CB6FF8EA37173008850BB54A2BE /* CRJDrawGradientColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDE273E293EE4684D56F348F0CEBCCF /* CRJDrawGradientColorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15E11FFDA24CA51C8E621556A7E993A3 /* CRJCGContextObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE4D7546BB8FF34F4A727A04EAB68AC /* CRJCGContextObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B3374355D739CADDC63F254AD7A5A78 /* CRJRGBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78FB91305B2C08D01380F1C39675C8 /* CRJRGBColor.m */; };
+		21ABE33C84251D2ABEE0A6E32A5DE096 /* CRJGradientColor.h in Headers */ = {isa = PBXBuildFile; fileRef = E7A1340382EA91676DA05C6E9DDFD684 /* CRJGradientColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26FDB91CD6C3A264A2032E28F7AA7BE3 /* CRJGradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02F147858011E00BC5AC1A08F047CA /* CRJGradientColor.m */; };
+		53AD7EDAF678E12B85724B935101B109 /* Pods-CRJCGContextObject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B05F90F40E70651B04641804AC5FA8 /* Pods-CRJCGContextObject_Example-dummy.m */; };
+		6193EA01CDA7224FA86309B7723AD3D3 /* Pods-CRJCGContextObject_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F594B5B4BE608CFD48293C66F3A9B6BE /* Pods-CRJCGContextObject_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E41535EF0A436854227CD212FC747AC /* CRJCGContextObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD96AE685E6A114F65497F416EECEF4C /* CRJCGContextObject.m */; };
+		70E6B7130179F117402C991559F99537 /* Pods-CRJCGContextObject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2021ACDAB15D963305979F2A12773AD5 /* Pods-CRJCGContextObject_Tests-dummy.m */; };
+		7AA1F4E8B12992D44F33C09D1C8AA37A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B24565B768F95A25854C9DD51C31857F /* CRJCGContextObject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84042EFFDBFA0A80700682336507E5A4 /* CRJCGContextObject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC43748DAF0F5DF6681E7B882EE92D7F /* CRJRGBColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F713AC49AFD601B12A74322BA00B74D8 /* CRJRGBColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE540C51F8614C2D7AF3246C02705CA3 /* CRJDrawGradientColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48511BAC580B7FDB0AD03A25DF551D99 /* CRJDrawGradientColorView.m */; };
+		D08F5E0161B535F82C8A86D81048F5A8 /* CRJCGContextObjectConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7177B62C7686B7E7133A89F221B32019 /* CRJCGContextObjectConfig.m */; };
+		D656D2FDDB0FA9A624A6735E7E7F6B87 /* Pods-CRJCGContextObject_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 311DFBAAFCA7A324BCE838875E24DF95 /* Pods-CRJCGContextObject_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EBC5E720F54F0CA08CC30B4672577C /* CRJCGContextObjectConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED1884153F86BF3E23B8ED0D1F98AB0 /* CRJCGContextObjectConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF91666BB2867E081A69C1E07E887D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53116CDEACDDD048BB1569619621B945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1D618EE8A98096C1A6011F723DFF7C4;
+			remoteInfo = "Pods-CRJCGContextObject_Example";
+		};
+		62B3195998AE2CD96BD25C5454D878E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA97C0B59C0B4BE34264E7B69F2206BA;
+			remoteInfo = CRJCGContextObject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D59FEC489166BA05A5E5E9D0D408F7 /* CRJCGContextObject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CRJCGContextObject-Info.plist"; sourceTree = "<group>"; };
+		13EDDF1C6DA813207D4F3E442FF00C0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1BE4D7546BB8FF34F4A727A04EAB68AC /* CRJCGContextObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJCGContextObject.h; path = CRJCGContextObject/Classes/CRJCGContextObject.h; sourceTree = "<group>"; };
+		1F78FB91305B2C08D01380F1C39675C8 /* CRJRGBColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJRGBColor.m; path = CRJCGContextObject/Classes/CRJRGBColor.m; sourceTree = "<group>"; };
+		2021ACDAB15D963305979F2A12773AD5 /* Pods-CRJCGContextObject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRJCGContextObject_Tests-dummy.m"; sourceTree = "<group>"; };
+		261933596D6DFF16F488A08CCF027EAD /* Pods-CRJCGContextObject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRJCGContextObject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		311DFBAAFCA7A324BCE838875E24DF95 /* Pods-CRJCGContextObject_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRJCGContextObject_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48511BAC580B7FDB0AD03A25DF551D99 /* CRJDrawGradientColorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJDrawGradientColorView.m; path = CRJCGContextObject/Classes/CRJDrawGradientColorView.m; sourceTree = "<group>"; };
+		4ED1884153F86BF3E23B8ED0D1F98AB0 /* CRJCGContextObjectConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJCGContextObjectConfig.h; path = CRJCGContextObject/Classes/CRJCGContextObjectConfig.h; sourceTree = "<group>"; };
+		5C7C40A54DAC1A701D354E7F7E9AFBF7 /* CRJCGContextObject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CRJCGContextObject.framework; path = CRJCGContextObject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDE273E293EE4684D56F348F0CEBCCF /* CRJDrawGradientColorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJDrawGradientColorView.h; path = CRJCGContextObject/Classes/CRJDrawGradientColorView.h; sourceTree = "<group>"; };
+		5D61B7122F00019B8D311027F99F1E91 /* Pods-CRJCGContextObject_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRJCGContextObject_Example-frameworks.sh"; sourceTree = "<group>"; };
+		66539D0C194BF55E81E95357D191CF04 /* Pods-CRJCGContextObject_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRJCGContextObject_Tests-Info.plist"; sourceTree = "<group>"; };
+		6FDD1111394B89D758B48A40CB5A0CA9 /* Pods-CRJCGContextObject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRJCGContextObject_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7177B62C7686B7E7133A89F221B32019 /* CRJCGContextObjectConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJCGContextObjectConfig.m; path = CRJCGContextObject/Classes/CRJCGContextObjectConfig.m; sourceTree = "<group>"; };
+		774E3D7902BE30AD81147B37E381CFE9 /* CRJCGContextObject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CRJCGContextObject.modulemap; sourceTree = "<group>"; };
+		8218DDE43FB4B0EBEE8058B21E897340 /* Pods-CRJCGContextObject_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRJCGContextObject_Example-Info.plist"; sourceTree = "<group>"; };
+		84042EFFDBFA0A80700682336507E5A4 /* CRJCGContextObject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRJCGContextObject-umbrella.h"; sourceTree = "<group>"; };
+		951B7E11F2C1341669B5BACB230FC59E /* CRJCGContextObject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRJCGContextObject-dummy.m"; sourceTree = "<group>"; };
+		9BA4F2D2F5DC91E874D381BB76BB3E8C /* Pods-CRJCGContextObject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRJCGContextObject_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A236F1D3E625F7232D74AA5319D0D3C9 /* Pods-CRJCGContextObject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRJCGContextObject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7B05F90F40E70651B04641804AC5FA8 /* Pods-CRJCGContextObject_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRJCGContextObject_Example-dummy.m"; sourceTree = "<group>"; };
+		AD02F147858011E00BC5AC1A08F047CA /* CRJGradientColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJGradientColor.m; path = CRJCGContextObject/Classes/CRJGradientColor.m; sourceTree = "<group>"; };
+		B036CF839128B117036D8D787BF464A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6AC19C79AEAA02A237175798DA2DBCC /* CRJCGContextObject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CRJCGContextObject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B75290A9F656D5360B9267F78E2BAA43 /* CRJCGContextObject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRJCGContextObject.release.xcconfig; sourceTree = "<group>"; };
+		C85430E01D0F9841973E0AE2E0D61A21 /* CRJCGContextObject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRJCGContextObject-prefix.pch"; sourceTree = "<group>"; };
+		C9770DFFB1C436A72208A324281B914A /* Pods-CRJCGContextObject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRJCGContextObject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBD7DC5AAF6ECFF23ADB20F947A4A4EC /* Pods_CRJCGContextObject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CRJCGContextObject_Tests.framework; path = "Pods-CRJCGContextObject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD96AE685E6A114F65497F416EECEF4C /* CRJCGContextObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJCGContextObject.m; path = CRJCGContextObject/Classes/CRJCGContextObject.m; sourceTree = "<group>"; };
+		CEFD08880F29D251A19A779A19E92B4F /* CRJCGContextObject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRJCGContextObject.debug.xcconfig; sourceTree = "<group>"; };
+		CF25B8FD7E1D8196D16E3C2606C27C50 /* Pods-CRJCGContextObject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRJCGContextObject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD83B36DF10D4D85E6243A42FE9B586E /* Pods_CRJCGContextObject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CRJCGContextObject_Example.framework; path = "Pods-CRJCGContextObject_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9411537CA3DEB5D27AA993713E1548 /* Pods-CRJCGContextObject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CRJCGContextObject_Example.modulemap"; sourceTree = "<group>"; };
+		E5A182AFAEBA1301B25C8F0B2C2992AB /* Pods-CRJCGContextObject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CRJCGContextObject_Tests.modulemap"; sourceTree = "<group>"; };
+		E7A1340382EA91676DA05C6E9DDFD684 /* CRJGradientColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJGradientColor.h; path = CRJCGContextObject/Classes/CRJGradientColor.h; sourceTree = "<group>"; };
+		F0F83F9A7511E8374A24916FD865E406 /* Pods-CRJCGContextObject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRJCGContextObject_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F594B5B4BE608CFD48293C66F3A9B6BE /* Pods-CRJCGContextObject_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRJCGContextObject_Example-umbrella.h"; sourceTree = "<group>"; };
+		F713AC49AFD601B12A74322BA00B74D8 /* CRJRGBColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJRGBColor.h; path = CRJCGContextObject/Classes/CRJRGBColor.h; sourceTree = "<group>"; };
+		FEFD6310A635378D898F612E1726331D /* Pods-CRJCGContextObject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRJCGContextObject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2340AC4AB6F6FD511CF8D8B5679ED358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF91666BB2867E081A69C1E07E887D70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0B4B648E4327979DB0539746F710AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B36F1A7DD6421797AC75E079282F7FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E62C16AA8C86FD159B67ACFA7E48B650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA1F4E8B12992D44F33C09D1C8AA37A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CE7E417903083498355932A3FC7E4A5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB705F27FC8A84C74A27899509E3F36A /* Pods-CRJCGContextObject_Example */,
+				7CB0342924FF2289720960A41D5AA11F /* Pods-CRJCGContextObject_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7CB0342924FF2289720960A41D5AA11F /* Pods-CRJCGContextObject_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E5A182AFAEBA1301B25C8F0B2C2992AB /* Pods-CRJCGContextObject_Tests.modulemap */,
+				C9770DFFB1C436A72208A324281B914A /* Pods-CRJCGContextObject_Tests-acknowledgements.markdown */,
+				FEFD6310A635378D898F612E1726331D /* Pods-CRJCGContextObject_Tests-acknowledgements.plist */,
+				2021ACDAB15D963305979F2A12773AD5 /* Pods-CRJCGContextObject_Tests-dummy.m */,
+				66539D0C194BF55E81E95357D191CF04 /* Pods-CRJCGContextObject_Tests-Info.plist */,
+				311DFBAAFCA7A324BCE838875E24DF95 /* Pods-CRJCGContextObject_Tests-umbrella.h */,
+				CF25B8FD7E1D8196D16E3C2606C27C50 /* Pods-CRJCGContextObject_Tests.debug.xcconfig */,
+				9BA4F2D2F5DC91E874D381BB76BB3E8C /* Pods-CRJCGContextObject_Tests.release.xcconfig */,
+			);
+			name = "Pods-CRJCGContextObject_Tests";
+			path = "Target Support Files/Pods-CRJCGContextObject_Tests";
+			sourceTree = "<group>";
+		};
+		8A5C4F05D4624770AB9A25FE6F3E18B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				774E3D7902BE30AD81147B37E381CFE9 /* CRJCGContextObject.modulemap */,
+				951B7E11F2C1341669B5BACB230FC59E /* CRJCGContextObject-dummy.m */,
+				08D59FEC489166BA05A5E5E9D0D408F7 /* CRJCGContextObject-Info.plist */,
+				C85430E01D0F9841973E0AE2E0D61A21 /* CRJCGContextObject-prefix.pch */,
+				84042EFFDBFA0A80700682336507E5A4 /* CRJCGContextObject-umbrella.h */,
+				CEFD08880F29D251A19A779A19E92B4F /* CRJCGContextObject.debug.xcconfig */,
+				B75290A9F656D5360B9267F78E2BAA43 /* CRJCGContextObject.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CRJCGContextObject";
+			sourceTree = "<group>";
+		};
+		94EF3DF67D980B0A239CBB7FBDC4D00A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C40A54DAC1A701D354E7F7E9AFBF7 /* CRJCGContextObject.framework */,
+				DD83B36DF10D4D85E6243A42FE9B586E /* Pods_CRJCGContextObject_Example.framework */,
+				CBD7DC5AAF6ECFF23ADB20F947A4A4EC /* Pods_CRJCGContextObject_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD7D185FDB4CD5055CA09A379A8F73DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B6AC19C79AEAA02A237175798DA2DBCC /* CRJCGContextObject.podspec */,
+				B036CF839128B117036D8D787BF464A3 /* LICENSE */,
+				13EDDF1C6DA813207D4F3E442FF00C0D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB705F27FC8A84C74A27899509E3F36A /* Pods-CRJCGContextObject_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD9411537CA3DEB5D27AA993713E1548 /* Pods-CRJCGContextObject_Example.modulemap */,
+				A236F1D3E625F7232D74AA5319D0D3C9 /* Pods-CRJCGContextObject_Example-acknowledgements.markdown */,
+				261933596D6DFF16F488A08CCF027EAD /* Pods-CRJCGContextObject_Example-acknowledgements.plist */,
+				A7B05F90F40E70651B04641804AC5FA8 /* Pods-CRJCGContextObject_Example-dummy.m */,
+				5D61B7122F00019B8D311027F99F1E91 /* Pods-CRJCGContextObject_Example-frameworks.sh */,
+				8218DDE43FB4B0EBEE8058B21E897340 /* Pods-CRJCGContextObject_Example-Info.plist */,
+				F594B5B4BE608CFD48293C66F3A9B6BE /* Pods-CRJCGContextObject_Example-umbrella.h */,
+				F0F83F9A7511E8374A24916FD865E406 /* Pods-CRJCGContextObject_Example.debug.xcconfig */,
+				6FDD1111394B89D758B48A40CB5A0CA9 /* Pods-CRJCGContextObject_Example.release.xcconfig */,
+			);
+			name = "Pods-CRJCGContextObject_Example";
+			path = "Target Support Files/Pods-CRJCGContextObject_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FBF925B389C74CA5F31D4A784827908B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				94EF3DF67D980B0A239CBB7FBDC4D00A /* Products */,
+				3CE7E417903083498355932A3FC7E4A5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E85CC8A7CCFC4EA23A2E8261B7BD0F01 /* CRJCGContextObject */ = {
+			isa = PBXGroup;
+			children = (
+				1BE4D7546BB8FF34F4A727A04EAB68AC /* CRJCGContextObject.h */,
+				CD96AE685E6A114F65497F416EECEF4C /* CRJCGContextObject.m */,
+				4ED1884153F86BF3E23B8ED0D1F98AB0 /* CRJCGContextObjectConfig.h */,
+				7177B62C7686B7E7133A89F221B32019 /* CRJCGContextObjectConfig.m */,
+				5CDE273E293EE4684D56F348F0CEBCCF /* CRJDrawGradientColorView.h */,
+				48511BAC580B7FDB0AD03A25DF551D99 /* CRJDrawGradientColorView.m */,
+				E7A1340382EA91676DA05C6E9DDFD684 /* CRJGradientColor.h */,
+				AD02F147858011E00BC5AC1A08F047CA /* CRJGradientColor.m */,
+				F713AC49AFD601B12A74322BA00B74D8 /* CRJRGBColor.h */,
+				1F78FB91305B2C08D01380F1C39675C8 /* CRJRGBColor.m */,
+				AD7D185FDB4CD5055CA09A379A8F73DB /* Pod */,
+				8A5C4F05D4624770AB9A25FE6F3E18B4 /* Support Files */,
+			);
+			name = CRJCGContextObject;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FBF925B389C74CA5F31D4A784827908B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E85CC8A7CCFC4EA23A2E8261B7BD0F01 /* CRJCGContextObject */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56A89795422AA63857DDD3BD7D8FCB79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D656D2FDDB0FA9A624A6735E7E7F6B87 /* Pods-CRJCGContextObject_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC237199816E1D70F6F05D19355DE04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6193EA01CDA7224FA86309B7723AD3D3 /* Pods-CRJCGContextObject_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E48021FC0874C6988D1480DEAF4D06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24565B768F95A25854C9DD51C31857F /* CRJCGContextObject-umbrella.h in Headers */,
+				15E11FFDA24CA51C8E621556A7E993A3 /* CRJCGContextObject.h in Headers */,
+				F4EBC5E720F54F0CA08CC30B4672577C /* CRJCGContextObjectConfig.h in Headers */,
+				11EE2CB6FF8EA37173008850BB54A2BE /* CRJDrawGradientColorView.h in Headers */,
+				21ABE33C84251D2ABEE0A6E32A5DE096 /* CRJGradientColor.h in Headers */,
+				CC43748DAF0F5DF6681E7B882EE92D7F /* CRJRGBColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13EFE2478C6D2979CAE0296452A097E3 /* Pods-CRJCGContextObject_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BBFE895ABDD97B007AE7FAEAD9A5DE /* Build configuration list for PBXNativeTarget "Pods-CRJCGContextObject_Tests" */;
+			buildPhases = (
+				56A89795422AA63857DDD3BD7D8FCB79 /* Headers */,
+				078969012217507379BEF7E169F2422F /* Sources */,
+				BE0B4B648E4327979DB0539746F710AA /* Frameworks */,
+				48809F72E97506E8E5A065D5D9CE4561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF79CEF2669550C05A45584B27B967F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CRJCGContextObject_Tests";
+			productName = "Pods-CRJCGContextObject_Tests";
+			productReference = CBD7DC5AAF6ECFF23ADB20F947A4A4EC /* Pods_CRJCGContextObject_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1D618EE8A98096C1A6011F723DFF7C4 /* Pods-CRJCGContextObject_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8AD20AE79DA8F057B063F0BEF2A9EE3 /* Build configuration list for PBXNativeTarget "Pods-CRJCGContextObject_Example" */;
+			buildPhases = (
+				8DC237199816E1D70F6F05D19355DE04 /* Headers */,
+				CDC6DD5819E6C149175D805F35DBA0CD /* Sources */,
+				2340AC4AB6F6FD511CF8D8B5679ED358 /* Frameworks */,
+				793FA3B939FDFC2AE6EBC2285347F2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				050CE8F52CD930A104B8C1D1B0A7BB12 /* PBXTargetDependency */,
+			);
+			name = "Pods-CRJCGContextObject_Example";
+			productName = "Pods-CRJCGContextObject_Example";
+			productReference = DD83B36DF10D4D85E6243A42FE9B586E /* Pods_CRJCGContextObject_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA97C0B59C0B4BE34264E7B69F2206BA /* CRJCGContextObject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DCF3B17CD0FAB218A11ADC1704028A /* Build configuration list for PBXNativeTarget "CRJCGContextObject" */;
+			buildPhases = (
+				F4E48021FC0874C6988D1480DEAF4D06 /* Headers */,
+				7121D871340A70352D89416F11182074 /* Sources */,
+				E62C16AA8C86FD159B67ACFA7E48B650 /* Frameworks */,
+				D73BA874C3ADC4D04346C78C97DCCD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRJCGContextObject;
+			productName = CRJCGContextObject;
+			productReference = 5C7C40A54DAC1A701D354E7F7E9AFBF7 /* CRJCGContextObject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 94EF3DF67D980B0A239CBB7FBDC4D00A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA97C0B59C0B4BE34264E7B69F2206BA /* CRJCGContextObject */,
+				C1D618EE8A98096C1A6011F723DFF7C4 /* Pods-CRJCGContextObject_Example */,
+				13EFE2478C6D2979CAE0296452A097E3 /* Pods-CRJCGContextObject_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48809F72E97506E8E5A065D5D9CE4561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793FA3B939FDFC2AE6EBC2285347F2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73BA874C3ADC4D04346C78C97DCCD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078969012217507379BEF7E169F2422F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E6B7130179F117402C991559F99537 /* Pods-CRJCGContextObject_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7121D871340A70352D89416F11182074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDDBB3A2839D8ABB194E8D2762EE4FC /* CRJCGContextObject-dummy.m in Sources */,
+				6E41535EF0A436854227CD212FC747AC /* CRJCGContextObject.m in Sources */,
+				D08F5E0161B535F82C8A86D81048F5A8 /* CRJCGContextObjectConfig.m in Sources */,
+				CE540C51F8614C2D7AF3246C02705CA3 /* CRJDrawGradientColorView.m in Sources */,
+				26FDB91CD6C3A264A2032E28F7AA7BE3 /* CRJGradientColor.m in Sources */,
+				1B3374355D739CADDC63F254AD7A5A78 /* CRJRGBColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC6DD5819E6C149175D805F35DBA0CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AD7EDAF678E12B85724B935101B109 /* Pods-CRJCGContextObject_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		050CE8F52CD930A104B8C1D1B0A7BB12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CRJCGContextObject;
+			target = DA97C0B59C0B4BE34264E7B69F2206BA /* CRJCGContextObject */;
+			targetProxy = 62B3195998AE2CD96BD25C5454D878E9 /* PBXContainerItemProxy */;
+		};
+		EF79CEF2669550C05A45584B27B967F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CRJCGContextObject_Example";
+			target = C1D618EE8A98096C1A6011F723DFF7C4 /* Pods-CRJCGContextObject_Example */;
+			targetProxy = 53116CDEACDDD048BB1569619621B945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E9B08D105A8683C14FD34054CD7F854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75290A9F656D5360B9267F78E2BAA43 /* CRJCGContextObject.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CRJCGContextObject/CRJCGContextObject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRJCGContextObject/CRJCGContextObject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CRJCGContextObject/CRJCGContextObject.modulemap";
+				PRODUCT_MODULE_NAME = CRJCGContextObject;
+				PRODUCT_NAME = CRJCGContextObject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		380CE78078CF276880C0B13D72CDA7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F83F9A7511E8374A24916FD865E406 /* Pods-CRJCGContextObject_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CRJCGContextObject_Example/Pods-CRJCGContextObject_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CRJCGContextObject_Example/Pods-CRJCGContextObject_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8714BC29E29B36E7D44672068636B091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDD1111394B89D758B48A40CB5A0CA9 /* Pods-CRJCGContextObject_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CRJCGContextObject_Example/Pods-CRJCGContextObject_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CRJCGContextObject_Example/Pods-CRJCGContextObject_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0471FCF74C15C1A78BDFC0EB85FC818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF25B8FD7E1D8196D16E3C2606C27C50 /* Pods-CRJCGContextObject_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CRJCGContextObject_Tests/Pods-CRJCGContextObject_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CRJCGContextObject_Tests/Pods-CRJCGContextObject_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4C452F161FA5A4DF9102BD13E456959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFD08880F29D251A19A779A19E92B4F /* CRJCGContextObject.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CRJCGContextObject/CRJCGContextObject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRJCGContextObject/CRJCGContextObject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CRJCGContextObject/CRJCGContextObject.modulemap";
+				PRODUCT_MODULE_NAME = CRJCGContextObject;
+				PRODUCT_NAME = CRJCGContextObject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA9A0CF49320931AE0216AFEEB38F5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA4F2D2F5DC91E874D381BB76BB3E8C /* Pods-CRJCGContextObject_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CRJCGContextObject_Tests/Pods-CRJCGContextObject_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CRJCGContextObject_Tests/Pods-CRJCGContextObject_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DCF3B17CD0FAB218A11ADC1704028A /* Build configuration list for PBXNativeTarget "CRJCGContextObject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C452F161FA5A4DF9102BD13E456959 /* Debug */,
+				1E9B08D105A8683C14FD34054CD7F854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BBFE895ABDD97B007AE7FAEAD9A5DE /* Build configuration list for PBXNativeTarget "Pods-CRJCGContextObject_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0471FCF74C15C1A78BDFC0EB85FC818 /* Debug */,
+				DA9A0CF49320931AE0216AFEEB38F5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8AD20AE79DA8F057B063F0BEF2A9EE3 /* Build configuration list for PBXNativeTarget "Pods-CRJCGContextObject_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380CE78078CF276880C0B13D72CDA7E6 /* Debug */,
+				8714BC29E29B36E7D44672068636B091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

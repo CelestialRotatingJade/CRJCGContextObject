@@ -1,0 +1,6 @@
+framework module CRJCGContextObject {
+  umbrella header "CRJCGContextObject-umbrella.h"
+
+  export *
+  module * { export * }
+}
